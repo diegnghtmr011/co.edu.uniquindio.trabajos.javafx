@@ -5,12 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3187f9ba-07fe-44e4-95f2-0c383d7d49e2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/controller/EmpleadoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/model/Contacto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/model/Direccion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/model/Empleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/model/Telefono.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/model/builder/ContactoBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/model/builder/DireccionBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/model/builder/EmpleadoBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/model/builder/TelefonoBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/model/enums/TipoGenero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/model/enums/TipoTelefono.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/services/IBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,17 +55,21 @@
   "associatedIndex": 0
 }]]></component>
   <component name="ProjectId" id="2dA0qqSP2OUv6sqACnScpGeIJDG" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.HelloApplication.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "origin/develop",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Lenovo/OneDrive/Documentos/Programacion2/Repositorios/co.edu.uniquindio.trabajos.javafx/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -55,6 +79,15 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\OneDrive\Documentos\Programacion2\Repositorios\co.edu.uniquindio.trabajos.javafx\src\main\java\co\edu\uniquindio\trabajos\javafx\trabajosjavafx" />
+      <recent name="C:\Users\Lenovo\OneDrive\Documentos\Programacion2\Repositorios\co.edu.uniquindio.trabajos.javafx\src\main\java\co\edu\uniquindio\trabajos\javafx\trabajosjavafx\model" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="co.edu.uniquindio.trabajos.javafx.trabajosjavafx.model" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="co.edu.uniquindio.trabajos.javafx.trabajosjavafx.HelloApplication" />
@@ -84,7 +117,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709428203262</updated>
       <workItem from="1709428204605" duration="1503000" />
-      <workItem from="1709435770702" duration="117000" />
+      <workItem from="1709435770702" duration="2063000" />
     </task>
     <servers />
   </component>
