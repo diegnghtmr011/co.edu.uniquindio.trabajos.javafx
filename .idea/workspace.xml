@@ -5,19 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3187f9ba-07fe-44e4-95f2-0c383d7d49e2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/controller/EmpleadoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/model/Contacto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/model/Direccion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/model/Empleado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/model/Telefono.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/model/builder/ContactoBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/model/builder/DireccionBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/model/builder/EmpleadoBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/model/builder/TelefonoBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/model/enums/TipoGenero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/model/enums/TipoTelefono.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/services/IBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/Empleado.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/EmpleadoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/controller/EmpleadoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/controller/EmpleadoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -64,9 +59,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.EmpleadoApplication.executor": "Run",
     "Application.HelloApplication.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "origin/develop",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Lenovo/OneDrive/Documentos/Programacion2/Repositorios/co.edu.uniquindio.trabajos.javafx/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx",
@@ -89,8 +86,8 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="co.edu.uniquindio.trabajos.javafx.trabajosjavafx.HelloApplication" />
+    <configuration name="EmpleadoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.edu.uniquindio.trabajos.javafx.trabajosjavafx.EmpleadoApplication" />
       <module name="trabajos-javafx" />
       <extension name="coverage">
         <pattern>
@@ -104,7 +101,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HelloApplication" />
+        <item itemvalue="Application.EmpleadoApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -117,7 +114,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709428203262</updated>
       <workItem from="1709428204605" duration="1503000" />
-      <workItem from="1709435770702" duration="2063000" />
+      <workItem from="1709435770702" duration="8780000" />
     </task>
     <servers />
   </component>
