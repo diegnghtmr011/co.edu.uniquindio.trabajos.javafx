@@ -2,13 +2,11 @@ package co.edu.uniquindio.trabajos.javafx.trabajosjavafx.model;
 
 public class Contacto {
     private String nombre;
-    private Telefono telefono;
-    private Direccion direccion;
+    private String telefono;
 
-    public Contacto(String nombre, Telefono telefono, Direccion direccion) {
+    public Contacto(String nombre, String telefono) {
         this.nombre = nombre;
         this.telefono = telefono;
-        this.direccion = direccion;
     }
 
     public Contacto() {
@@ -18,12 +16,8 @@ public class Contacto {
         return nombre;
     }
 
-    public Telefono getTelefono() {
+    public String getTelefono() {
         return telefono;
-    }
-
-    public Direccion getDireccion() {
-        return direccion;
     }
 
     @Override
@@ -31,7 +25,6 @@ public class Contacto {
         return "Contacto{" +
                 "nombre='" + nombre + '\'' +
                 ", telefono=" + telefono +
-                ", direccion=" + direccion +
                 '}';
     }
 }

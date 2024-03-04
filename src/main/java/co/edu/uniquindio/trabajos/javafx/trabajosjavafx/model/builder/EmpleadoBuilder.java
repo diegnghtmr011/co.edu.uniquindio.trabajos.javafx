@@ -1,9 +1,7 @@
 package co.edu.uniquindio.trabajos.javafx.trabajosjavafx.model.builder;
 
 import co.edu.uniquindio.trabajos.javafx.trabajosjavafx.model.Contacto;
-import co.edu.uniquindio.trabajos.javafx.trabajosjavafx.model.Direccion;
 import co.edu.uniquindio.trabajos.javafx.trabajosjavafx.model.Empleado;
-import co.edu.uniquindio.trabajos.javafx.trabajosjavafx.model.Telefono;
 import co.edu.uniquindio.trabajos.javafx.trabajosjavafx.model.enums.TipoGenero;
 import co.edu.uniquindio.trabajos.javafx.trabajosjavafx.services.IBuilder;
 
@@ -14,8 +12,9 @@ public class EmpleadoBuilder implements IBuilder<Empleado> {
     private int edad;
     private String nombre;
     private TipoGenero tipoGenero;
-    private Direccion direccion;
-    private Telefono telefono;
+    private String direccion;
+    private String telefono;
+    private int salario;
     private Collection<Contacto> listaContactos = new LinkedList<>();
 
     public EmpleadoBuilder setEdad(int edad) {
@@ -33,13 +32,18 @@ public class EmpleadoBuilder implements IBuilder<Empleado> {
         return this;
     }
 
-    public EmpleadoBuilder setDireccion(Direccion direccion) {
+    public EmpleadoBuilder setDireccion(String direccion) {
         this.direccion = direccion;
         return this;
     }
 
-    public EmpleadoBuilder setTelefono(Telefono telefono) {
+    public EmpleadoBuilder setTelefono(String telefono) {
         this.telefono = telefono;
+        return this;
+    }
+
+    public EmpleadoBuilder setSalario(int salario) {
+        this.salario = salario;
         return this;
     }
 
@@ -55,6 +59,6 @@ public class EmpleadoBuilder implements IBuilder<Empleado> {
 
     @Override
     public Empleado build() {
-        return new Empleado(edad, nombre, tipoGenero, direccion, telefono, listaContactos);
+        return new Empleado(edad, nombre, tipoGenero, direccion, telefono, salario, listaContactos);
     }
 }

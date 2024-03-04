@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
 <?import javafx.scene.control.Separator?>
 <?import javafx.scene.control.SplitPane?>
 <?import javafx.scene.control.TextArea?>
@@ -10,18 +12,17 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="430.0" prefWidth="689.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.trabajos.javafx.trabajosjavafx.controller.EmpleadoController">
+<AnchorPane prefHeight="512.0" prefWidth="681.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.trabajos.javafx.trabajosjavafx.controller.EmpleadoController">
    <effect>
       <ColorAdjust brightness="-0.19" contrast="0.12" />
    </effect>
    <children>
-      <SplitPane dividerPositions="0.6822429906542056" orientation="VERTICAL" prefHeight="430.0" prefWidth="689.0">
+      <SplitPane dividerPositions="0.7286821705426356" orientation="VERTICAL" prefHeight="518.0" prefWidth="689.0">
         <items>
-          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="139.0" prefWidth="687.0">
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="384.0" prefWidth="687.0">
                <children>
                   <Label layoutX="14.0" layoutY="64.0" text="Nombre:" />
-                  <Button fx:id="btnAgregarEmpleado" layoutX="295.0" layoutY="257.0" mnemonicParsing="false" onAction="#onAgregarEmpleado" text="Agrega Empleado">
+                  <Button fx:id="btnAgregarEmpleado" layoutX="295.0" layoutY="336.0" mnemonicParsing="false" onAction="#onAgregarEmpleado" text="Agregar Empleado">
                      <font>
                         <Font name="Arial Italic" size="12.0" />
                      </font>
@@ -35,20 +36,24 @@
                   <Separator layoutX="-4.0" layoutY="29.0" prefHeight="5.0" prefWidth="695.0" />
                   <Label layoutX="346.0" layoutY="64.0" text="Edad:" />
                   <Label layoutX="346.0" layoutY="137.0" text="Direccion:" />
-                  <Label layoutX="346.0" layoutY="213.0" text="Contactos" />
                   <Label layoutX="14.0" layoutY="137.0" text="Genero:" />
-                  <Label layoutX="14.0" layoutY="213.0" text="Telefono:" />
-                  <TextField fx:id="txtGenero" layoutX="68.0" layoutY="133.0" prefHeight="17.0" prefWidth="227.0" promptText="Ingrese su genero" />
-                  <TextField fx:id="txtTelefono" layoutX="68.0" layoutY="209.0" prefHeight="23.0" prefWidth="227.0" promptText="Ingrese su telefono" />
-                  <TextField fx:id="txtContactos" layoutX="410.0" layoutY="209.0" prefHeight="23.0" prefWidth="227.0" promptText="Ingrese sus contactos" />
-                  <TextField fx:id="txtDireccion" layoutX="410.0" layoutY="133.0" prefHeight="17.0" prefWidth="227.0" promptText="Ingrese su direccion" />
+                  <Label layoutX="14.0" layoutY="211.0" text="Telefono:" />
+                   <ComboBox fx:id="cbxGenero" layoutX="68.0" layoutY="133.0" prefHeight="25.0" prefWidth="227.0" />
+                  <TextField fx:id="txtTelefono" layoutX="68.0" layoutY="207.0" prefHeight="23.0" prefWidth="227.0" promptText="Ingrese su telefono" />                  <TextField fx:id="txtDireccion" layoutX="410.0" layoutY="133.0" prefHeight="17.0" prefWidth="227.0" promptText="Ingrese su direccion" />
                   <TextField fx:id="txtEdad" layoutX="410.0" layoutY="60.0" prefHeight="23.0" prefWidth="227.0" promptText="Ingrese su edad" />
-                  <Separator layoutX="-1.0" layoutY="245.0" prefHeight="5.0" prefWidth="695.0" />
+                  <Separator layoutX="-1.0" layoutY="320.0" prefHeight="5.0" prefWidth="695.0" />
+                  <Separator layoutX="-4.0" layoutY="252.0" prefHeight="5.0" prefWidth="695.0" />
+                  <Label layoutX="14.0" layoutY="281.0" text="Nombre:" />
+                  <TextField fx:id="txtNombreContacto" layoutX="68.0" layoutY="277.0" prefHeight="25.0" prefWidth="227.0" promptText="Ingrese el nombre de su contacto" />
+                  <Label layoutX="346.0" layoutY="281.0" text="Telefono:" />
+                  <TextField fx:id="txtTelefonoContacto" layoutX="410.0" layoutY="277.0" prefHeight="23.0" prefWidth="227.0" promptText="Ingrese el numero de su contacto" />
+                  <RadioButton fx:id="rbEmpleadoPlanta" layoutX="353.0" layoutY="211.0" mnemonicParsing="false" text="Empleado de planta" />
+                  <RadioButton fx:id="rbEmpleadoTemporal" layoutX="511.0" layoutY="211.0" mnemonicParsing="false" text="Empleado temporal" />
                </children>
             </AnchorPane>
-          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="127.0" prefWidth="687.0">
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="156.0" prefWidth="720.0">
                <children>
-                  <TextArea fx:id="txtResultado" layoutX="14.0" layoutY="13.0" prefHeight="108.0" prefWidth="660.0" />
+                  <TextArea fx:id="txtResultado" layoutX="14.0" layoutY="15.0" prefHeight="108.0" prefWidth="660.0" />
                </children>
             </AnchorPane>
         </items>
