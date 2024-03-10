@@ -6,7 +6,7 @@ import java.util.Collection;
 import java.util.LinkedList;
 import java.util.ResourceBundle;
 
-
+import co.edu.uniquindio.trabajos.javafx.trabajosjavafx.util.AssertionUtil;
 import co.edu.uniquindio.trabajos.javafx.trabajosjavafx.factory.ModelFactory;
 import co.edu.uniquindio.trabajos.javafx.trabajosjavafx.model.Contacto;
 import co.edu.uniquindio.trabajos.javafx.trabajosjavafx.model.Empleado;
@@ -86,6 +86,9 @@ public class EmpleadoController {
     }
 
     private Contacto crearContacto() {
+        AssertionUtil.assertion(txtNombreContacto.getText() != null && !txtNombreContacto.getText().isBlank(), "El nombre del contacto no puede ser nulo o vacío");
+        AssertionUtil.assertion(txtTelefonoContacto.getText() != null && !txtTelefonoContacto.getText().isBlank(), "El teléfono del contacto no puede ser nulo o vacío");
+
         return new ContactoBuilder()
                 .setNombre(txtNombreContacto.getText())
                 .setTelefono(txtTelefonoContacto.getText())
@@ -96,13 +99,13 @@ public class EmpleadoController {
         String mensaje = "";
         if (empleadoCreado) {
             mensaje = "Empleado creado exitosamente. Detalles:\n" +
-                    "Edad: " + txtEdad.getText() + "\n" +
-                    "Nombre: " + txtNombre.getText() + "\n" +
+                    "Edad: " + txtEdad.getText().trim() + "\n" +
+                    "Nombre: " + txtNombre.getText().trim() + "\n" +
                     "Género: " + (cbxGenero.getValue() != null ? cbxGenero.getValue().toString() : "No especificado") + "\n" +
-                    "Dirección: " + txtDireccion.getText() + "\n" +
-                    "Teléfono: " + txtTelefono.getText() + "\n" +
+                    "Dirección: " + txtDireccion.getText().trim() + "\n" +
+                    "Teléfono: " + txtTelefono.getText().trim() + "\n" +
                     "Salario: " + determinarSalario() + "\n" +
-                    "Cédula: " + txtCedula.getText();
+                    "Cédula: " + txtCedula.getText().trim();
             return mensaje;
         } else {
             mensaje = "No se pudo crear el empleado. " +
@@ -112,6 +115,12 @@ public class EmpleadoController {
     }
 
     private void agregarEmpleado() {
+        AssertionUtil.assertion(txtEdad.getText() != null && !txtEdad.getText().isBlank(), "La edad no puede ser nula");
+        AssertionUtil.assertion(txtNombre.getText() != null && !txtNombre.getText().isBlank(), "El nombre no puede ser nulo");
+        AssertionUtil.assertion(cbxGenero.getValue() != null, "El género no puede ser nulo");
+        AssertionUtil.assertion(txtDireccion.getText() != null && !txtDireccion.getText().isBlank(), "La dirección no puede ser nula");
+        AssertionUtil.assertion(txtTelefono.getText() != null && !txtTelefono.getText().isBlank(), "El teléfono no puede ser nulo");
+        AssertionUtil.assertion(txtCedula.getText() != null && !txtCedula.getText().isBlank(), "La cédula no puede ser nula");
         Collection<Contacto> contactos = new LinkedList<>();
         contactos.add(crearContacto());
 

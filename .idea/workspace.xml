@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3187f9ba-07fe-44e4-95f2-0c383d7d49e2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/factory/ModelFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/model/Empresa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/model/builder/EmpresaBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/util/AssertionUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/controller/EmpleadoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/controller/EmpleadoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/model/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/model/Empleado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/model/builder/EmpleadoBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/model/builder/EmpleadoBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/Empleado.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/Empleado.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +114,7 @@
       <workItem from="1709871388900" duration="648000" />
       <workItem from="1709933927536" duration="357000" />
       <workItem from="1709997080039" duration="4790000" />
-      <workItem from="1710027683052" duration="6068000" />
+      <workItem from="1710027683052" duration="9548000" />
     </task>
     <servers />
   </component>
