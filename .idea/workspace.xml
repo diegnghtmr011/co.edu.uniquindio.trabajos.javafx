@@ -5,17 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3187f9ba-07fe-44e4-95f2-0c383d7d49e2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/factory/ModelFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/model/Empresa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/model/builder/EmpresaBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/controller/EmpleadoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/controller/EmpleadoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/model/Contacto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/model/Contacto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/model/Direccion.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/model/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/model/Empleado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/model/Telefono.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/model/builder/ContactoBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/model/builder/ContactoBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/model/builder/DireccionBuilder.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/model/builder/EmpleadoBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/model/builder/EmpleadoBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/model/builder/TelefonoBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/model/enums/TipoTelefono.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/Empleado.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/co/edu/uniquindio/trabajos/javafx/trabajosjavafx/Empleado.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -68,7 +64,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "7d343632",
+    "git-widget-placeholder": "origin/development",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Lenovo/OneDrive/Documentos/Programacion2/Repositorios/co.edu.uniquindio.trabajos.javafx/src/main/java/co/edu/uniquindio/trabajos/javafx/trabajosjavafx",
     "node.js.detected.package.eslint": "true",
@@ -76,7 +72,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -119,10 +115,56 @@
       <updated>1709428203262</updated>
       <workItem from="1709428204605" duration="1503000" />
       <workItem from="1709435770702" duration="8780000" />
+      <workItem from="1709853158247" duration="2091000" />
+      <workItem from="1709871388900" duration="648000" />
+      <workItem from="1709933927536" duration="357000" />
+      <workItem from="1709997080039" duration="4790000" />
+      <workItem from="1710027683052" duration="6068000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="hash">
+                    <value>
+                      <list>
+                        <option value="7d343632" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="text">
+                    <value>
+                      <list>
+                        <option value="7d343632" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

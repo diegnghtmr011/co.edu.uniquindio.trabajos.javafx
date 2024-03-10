@@ -13,10 +13,12 @@ public class Empleado {
     private String direccion;
     private String telefono;
     private int salario;
+    private String cedula;
     private Collection<Contacto> listaContactos;
 
     public Empleado(int edad, String nombre, TipoGenero tipoGenero,
                     String direccion, String telefono, int salario,
+                    String cedula,
                     Collection<Contacto> listaContactos) {
         this.edad = edad;
         this.nombre = nombre;
@@ -24,6 +26,7 @@ public class Empleado {
         this.direccion = direccion;
         this.telefono = telefono;
         this.salario =salario;
+        this.cedula = cedula;
         this.listaContactos = new LinkedList<>(listaContactos);
     }
 
@@ -54,6 +57,10 @@ public class Empleado {
         return salario;
     }
 
+    public String getCedula() {
+        return cedula;
+    }
+
     public Collection<Contacto> getListaContactos() {
         return Collections.unmodifiableCollection(listaContactos);
     }
@@ -64,9 +71,10 @@ public class Empleado {
                 "edad=" + edad +
                 ", nombre='" + nombre + '\'' +
                 ", tipoGenero=" + tipoGenero +
-                ", direccion=" + direccion +
-                ", telefono=" + telefono +
+                ", direccion='" + direccion + '\'' +
+                ", telefono='" + telefono + '\'' +
                 ", salario=" + salario +
+                ", cedula='" + cedula + '\'' +
                 ", listaContactos=" + listaContactos +
                 '}';
     }

@@ -15,6 +15,7 @@ public class EmpleadoBuilder implements IBuilder<Empleado> {
     private String direccion;
     private String telefono;
     private int salario;
+    private String cedula;
     private Collection<Contacto> listaContactos = new LinkedList<>();
 
     public EmpleadoBuilder setEdad(int edad) {
@@ -47,6 +48,11 @@ public class EmpleadoBuilder implements IBuilder<Empleado> {
         return this;
     }
 
+    public EmpleadoBuilder setCedula(String cedula) {
+        this.cedula = cedula;
+        return this;
+    }
+
     public EmpleadoBuilder setListaContactos(Contacto contacto) {
         this.listaContactos.add(contacto);
         return this;
@@ -59,6 +65,6 @@ public class EmpleadoBuilder implements IBuilder<Empleado> {
 
     @Override
     public Empleado build() {
-        return new Empleado(edad, nombre, tipoGenero, direccion, telefono, salario, listaContactos);
+        return new Empleado(edad, nombre, tipoGenero, direccion, telefono, salario, cedula, listaContactos);
     }
 }
